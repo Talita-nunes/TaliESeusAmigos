@@ -11,6 +11,8 @@
 		B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA9278F818E009AE771 /* ContentView.swift */; };
 		B3B63AAC278F818F009AE771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAB278F818F009AE771 /* Assets.xcassets */; };
 		B3B63AAF278F818F009AE771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAE278F818F009AE771 /* Preview Assets.xcassets */; };
+		B3B63AB627921109009AE771 /* TelaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AB527921109009AE771 /* TelaInicial.swift */; };
+		B3B63ABC27924E5E009AE771 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABB27924E5E009AE771 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B3B63AA9278F818E009AE771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3B63AAB278F818F009AE771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B63AAE278F818F009AE771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3B63AB527921109009AE771 /* TelaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicial.swift; sourceTree = "<group>"; };
+		B3B63ABB27924E5E009AE771 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */,
 				B3B63AA9278F818E009AE771 /* ContentView.swift */,
+				B3B63AB527921109009AE771 /* TelaInicial.swift */,
+				B3B63ABB27924E5E009AE771 /* Cards.swift */,
 				B3B63AAB278F818F009AE771 /* Assets.xcassets */,
 				B3B63AAD278F818F009AE771 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B63ABC27924E5E009AE771 /* Cards.swift in Sources */,
+				B3B63AB627921109009AE771 /* TelaInicial.swift in Sources */,
 				B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */,
 				B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */,
 			);
