@@ -9,7 +9,6 @@ import SwiftUI
 
 struct BlocoHistoriasView: View {
     
-    
     var textoBlocoHistorias: [String]
     
     var body: some View {

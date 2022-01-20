@@ -9,5 +9,6 @@ import Foundation
 
 struct BlocoHistorias{
     var id: Int
+    var imagem: [String]
     var textos: [String]
 }

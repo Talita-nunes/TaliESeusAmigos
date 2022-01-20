@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B304C96E2799D1DE0083A207 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B304C96D2799D1DE0083A207 /* WidgetKit.framework */; };
+		B304C9702799D1DE0083A207 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B304C96F2799D1DE0083A207 /* SwiftUI.framework */; };
+		B304C9732799D1DF0083A207 /* TalieseusamigosWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304C9722799D1DE0083A207 /* TalieseusamigosWidget.swift */; };
+		B304C9762799D1E00083A207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B304C9752799D1E00083A207 /* Assets.xcassets */; };
+		B304C9782799D1E00083A207 /* TalieseusamigosWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B304C9742799D1DF0083A207 /* TalieseusamigosWidget.intentdefinition */; };
+		B304C9792799D1E00083A207 /* TalieseusamigosWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B304C9742799D1DF0083A207 /* TalieseusamigosWidget.intentdefinition */; };
+		B304C97C2799D1E00083A207 /* TalieseusamigosWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B304C9812799DB6D0083A207 /* TelaInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AB527921109009AE771 /* TelaInicialView.swift */; };
+		B304C9822799DB910083A207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAB278F818F009AE771 /* Assets.xcassets */; };
+		B304C9832799DD650083A207 /* BlocoHistoriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ADB2796FF01009AE771 /* BlocoHistoriasView.swift */; };
+		B304C9842799DD6A0083A207 /* TelaOrientacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */; };
+		B304C9852799DD760083A207 /* TelaHistoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AE5279773AF009AE771 /* TelaHistoriaView.swift */; };
+		B304C9862799DD7B0083A207 /* TelaOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */; };
+		B304C9872799DD820083A207 /* CardsOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABF2795E417009AE771 /* CardsOracaoView.swift */; };
+		B304C9882799DD840083A207 /* CardsHistóriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABB27924E5E009AE771 /* CardsHistóriasView.swift */; };
+		B304C9892799DE1E0083A207 /* BlocoHistorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ADD2797005A009AE771 /* BlocoHistorias.swift */; };
+		B304C98B279A18770083A207 /* BlocoVersiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304C98A279A18770083A207 /* BlocoVersiculos.swift */; };
+		B304C98C279A18770083A207 /* BlocoVersiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304C98A279A18770083A207 /* BlocoVersiculos.swift */; };
 		B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */; };
 		B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */; };
 		B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */; };
@@ -21,7 +39,39 @@
 		B3B63AE6279773AF009AE771 /* TelaHistoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AE5279773AF009AE771 /* TelaHistoriaView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B304C97A2799D1E00083A207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B63A9C278F818D009AE771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B304C96A2799D1DE0083A207;
+			remoteInfo = TalieseusamigosWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B304C97D2799D1E00083A207 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B304C97C2799D1E00083A207 /* TalieseusamigosWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TalieseusamigosWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B304C96D2799D1DE0083A207 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B304C96F2799D1DE0083A207 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B304C9722799D1DE0083A207 /* TalieseusamigosWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalieseusamigosWidget.swift; sourceTree = "<group>"; };
+		B304C9742799D1DF0083A207 /* TalieseusamigosWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TalieseusamigosWidget.intentdefinition; sourceTree = "<group>"; };
+		B304C9752799D1E00083A207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B304C9772799D1E00083A207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B304C98A279A18770083A207 /* BlocoVersiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocoVersiculos.swift; sourceTree = "<group>"; };
 		B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOrientacaoView.swift; sourceTree = "<group>"; };
 		B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOracaoView.swift; sourceTree = "<group>"; };
 		B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaliESeusAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +88,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B304C9682799D1DE0083A207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B304C9702799D1DE0083A207 /* SwiftUI.framework in Frameworks */,
+				B304C96E2799D1DE0083A207 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3B63AA1278F818E009AE771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,10 +107,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B304C96C2799D1DE0083A207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B304C96D2799D1DE0083A207 /* WidgetKit.framework */,
+				B304C96F2799D1DE0083A207 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B304C9712799D1DE0083A207 /* TalieseusamigosWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B304C9722799D1DE0083A207 /* TalieseusamigosWidget.swift */,
+				B304C98A279A18770083A207 /* BlocoVersiculos.swift */,
+				B304C9742799D1DF0083A207 /* TalieseusamigosWidget.intentdefinition */,
+				B304C9752799D1E00083A207 /* Assets.xcassets */,
+				B304C9772799D1E00083A207 /* Info.plist */,
+			);
+			path = TalieseusamigosWidget;
+			sourceTree = "<group>";
+		};
 		B3B63A9B278F818D009AE771 = {
 			isa = PBXGroup;
 			children = (
 				B3B63AA6278F818E009AE771 /* TaliESeusAmigos */,
+				B304C9712799D1DE0083A207 /* TalieseusamigosWidget */,
+				B304C96C2799D1DE0083A207 /* Frameworks */,
 				B3B63AA5278F818E009AE771 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */,
+				B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +177,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B304C96A2799D1DE0083A207 /* TalieseusamigosWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B304C9802799D1E00083A207 /* Build configuration list for PBXNativeTarget "TalieseusamigosWidgetExtension" */;
+			buildPhases = (
+				B304C9672799D1DE0083A207 /* Sources */,
+				B304C9682799D1DE0083A207 /* Frameworks */,
+				B304C9692799D1DE0083A207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalieseusamigosWidgetExtension;
+			productName = TalieseusamigosWidgetExtension;
+			productReference = B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B3B63AA3278F818E009AE771 /* TaliESeusAmigos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B63AB2278F818F009AE771 /* Build configuration list for PBXNativeTarget "TaliESeusAmigos" */;
@@ -101,10 +201,12 @@
 				B3B63AA0278F818E009AE771 /* Sources */,
 				B3B63AA1278F818E009AE771 /* Frameworks */,
 				B3B63AA2278F818E009AE771 /* Resources */,
+				B304C97D2799D1E00083A207 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B304C97B2799D1E00083A207 /* PBXTargetDependency */,
 			);
 			name = TaliESeusAmigos;
 			productName = TaliESeusAmigos;
@@ -121,6 +223,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					B304C96A2799D1DE0083A207 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					B3B63AA3278F818E009AE771 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -140,11 +245,21 @@
 			projectRoot = "";
 			targets = (
 				B3B63AA3278F818E009AE771 /* TaliESeusAmigos */,
+				B304C96A2799D1DE0083A207 /* TalieseusamigosWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B304C9692799D1DE0083A207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B304C9822799DB910083A207 /* Assets.xcassets in Resources */,
+				B304C9762799D1E00083A207 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3B63AA2278F818E009AE771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +272,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B304C9672799D1DE0083A207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B304C9842799DD6A0083A207 /* TelaOrientacaoView.swift in Sources */,
+				B304C9812799DB6D0083A207 /* TelaInicialView.swift in Sources */,
+				B304C9862799DD7B0083A207 /* TelaOracaoView.swift in Sources */,
+				B304C98C279A18770083A207 /* BlocoVersiculos.swift in Sources */,
+				B304C9782799D1E00083A207 /* TalieseusamigosWidget.intentdefinition in Sources */,
+				B304C9852799DD760083A207 /* TelaHistoriaView.swift in Sources */,
+				B304C9872799DD820083A207 /* CardsOracaoView.swift in Sources */,
+				B304C9882799DD840083A207 /* CardsHistóriasView.swift in Sources */,
+				B304C9732799D1DF0083A207 /* TalieseusamigosWidget.swift in Sources */,
+				B304C9892799DE1E0083A207 /* BlocoHistorias.swift in Sources */,
+				B304C9832799DD650083A207 /* BlocoHistoriasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3B63AA0278F818E009AE771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +300,8 @@
 				B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */,
 				B3B63AC02795E417009AE771 /* CardsOracaoView.swift in Sources */,
 				B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */,
+				B304C98B279A18770083A207 /* BlocoVersiculos.swift in Sources */,
+				B304C9792799D1E00083A207 /* TalieseusamigosWidget.intentdefinition in Sources */,
 				B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */,
 				B3B63AE6279773AF009AE771 /* TelaHistoriaView.swift in Sources */,
 				B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */,
@@ -176,7 +311,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B304C97B2799D1E00083A207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B304C96A2799D1DE0083A207 /* TalieseusamigosWidgetExtension */;
+			targetProxy = B304C97A2799D1E00083A207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B304C97E2799D1E00083A207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalieseusamigosWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalieseusamigosWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos.TalieseusamigosWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B304C97F2799D1E00083A207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalieseusamigosWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalieseusamigosWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos.TalieseusamigosWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B3B63AB0278F818F009AE771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -296,6 +493,7 @@
 		B3B63AB3278F818F009AE771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +523,7 @@
 		B3B63AB4278F818F009AE771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -354,6 +553,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B304C9802799D1E00083A207 /* Build configuration list for PBXNativeTarget "TalieseusamigosWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B304C97E2799D1E00083A207 /* Debug */,
+				B304C97F2799D1E00083A207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3B63A9F278F818D009AE771 /* Build configuration list for PBXProject "TaliESeusAmigos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

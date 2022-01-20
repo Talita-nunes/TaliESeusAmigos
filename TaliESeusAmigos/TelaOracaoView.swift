@@ -14,28 +14,22 @@ struct TelaOracaoView: View {
     var body: some View {
         NavigationView {
             
-            ZStack {
-                VStack{
-                    Text("Momento de oração 🙏🏼")
-                        .font(.system(size: 27, weight: .bold, design: .default))
-                        .padding(.leading, 20)
-                    Spacer()
-                }
-                
-                HStack(spacing: 20) {
-                    Image(tituloImagem)
-                    
-                }
-                .padding(.horizontal)
-                .padding(.bottom, 30)
-            }
-  
+            //                    Text("Momento de oração 🙏🏼")
+            //                        .font(.system(size: 27, weight: .bold, design: .default))
+            
+            Image(tituloImagem)
+                .resizable()
+                .frame(width: 360, height: 645, alignment: .center)
+            
+            Spacer()
+            
         }
+//        .navigationTitle(Text("Momento de oração 🙏🏼"))
     }
 }
 
 struct TelaOracaoView_Previews: PreviewProvider {
     static var previews: some View {
-        TelaOracaoView(tituloImagem: "Oi")
+        TelaOracaoView(tituloImagem: "VIDAcard")
     }
 }

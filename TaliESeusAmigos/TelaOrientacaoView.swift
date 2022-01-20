@@ -94,7 +94,7 @@ struct TelaOrientacaoView: View {
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
-        .background(.purple)
+        .background(Color("Roxo"))
         
     }
 }
