@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */; };
+		B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */; };
 		B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */; };
 		B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA9278F818E009AE771 /* ContentView.swift */; };
 		B3B63AAC278F818F009AE771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAB278F818F009AE771 /* Assets.xcassets */; };
 		B3B63AAF278F818F009AE771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAE278F818F009AE771 /* Preview Assets.xcassets */; };
-		B3B63AB627921109009AE771 /* TelaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AB527921109009AE771 /* TelaInicial.swift */; };
-		B3B63ABC27924E5E009AE771 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABB27924E5E009AE771 /* Cards.swift */; };
+		B3B63AB627921109009AE771 /* TelaInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AB527921109009AE771 /* TelaInicialView.swift */; };
+		B3B63ABC27924E5E009AE771 /* CardsHistóriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABB27924E5E009AE771 /* CardsHistóriasView.swift */; };
+		B3B63AC02795E417009AE771 /* CardsOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ABF2795E417009AE771 /* CardsOracaoView.swift */; };
+		B3B63ADC2796FF01009AE771 /* BlocoHistoriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ADB2796FF01009AE771 /* BlocoHistoriasView.swift */; };
+		B3B63ADE2797005A009AE771 /* BlocoHistorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ADD2797005A009AE771 /* BlocoHistorias.swift */; };
+		B3B63AE6279773AF009AE771 /* TelaHistoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AE5279773AF009AE771 /* TelaHistoriaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOrientacaoView.swift; sourceTree = "<group>"; };
+		B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOracaoView.swift; sourceTree = "<group>"; };
 		B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaliESeusAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaliESeusAmigosApp.swift; sourceTree = "<group>"; };
 		B3B63AA9278F818E009AE771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3B63AAB278F818F009AE771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B63AAE278F818F009AE771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B3B63AB527921109009AE771 /* TelaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicial.swift; sourceTree = "<group>"; };
-		B3B63ABB27924E5E009AE771 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B3B63AB527921109009AE771 /* TelaInicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialView.swift; sourceTree = "<group>"; };
+		B3B63ABB27924E5E009AE771 /* CardsHistóriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardsHistóriasView.swift"; sourceTree = "<group>"; };
+		B3B63ABF2795E417009AE771 /* CardsOracaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsOracaoView.swift; sourceTree = "<group>"; };
+		B3B63ADB2796FF01009AE771 /* BlocoHistoriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocoHistoriasView.swift; sourceTree = "<group>"; };
+		B3B63ADD2797005A009AE771 /* BlocoHistorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocoHistorias.swift; sourceTree = "<group>"; };
+		B3B63AE5279773AF009AE771 /* TelaHistoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaHistoriaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */,
+				B3B63ADD2797005A009AE771 /* BlocoHistorias.swift */,
 				B3B63AA9278F818E009AE771 /* ContentView.swift */,
-				B3B63AB527921109009AE771 /* TelaInicial.swift */,
-				B3B63ABB27924E5E009AE771 /* Cards.swift */,
+				B3B63AB527921109009AE771 /* TelaInicialView.swift */,
+				B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */,
+				B3B63AE5279773AF009AE771 /* TelaHistoriaView.swift */,
+				B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */,
+				B3B63ADB2796FF01009AE771 /* BlocoHistoriasView.swift */,
+				B3B63ABB27924E5E009AE771 /* CardsHistóriasView.swift */,
+				B3B63ABF2795E417009AE771 /* CardsOracaoView.swift */,
 				B3B63AAB278F818F009AE771 /* Assets.xcassets */,
 				B3B63AAD278F818F009AE771 /* Preview Content */,
 			);
@@ -143,10 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B63ABC27924E5E009AE771 /* Cards.swift in Sources */,
-				B3B63AB627921109009AE771 /* TelaInicial.swift in Sources */,
+				B3B63ADE2797005A009AE771 /* BlocoHistorias.swift in Sources */,
+				B3B63ABC27924E5E009AE771 /* CardsHistóriasView.swift in Sources */,
+				B3B63AB627921109009AE771 /* TelaInicialView.swift in Sources */,
 				B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */,
+				B3B63AC02795E417009AE771 /* CardsOracaoView.swift in Sources */,
+				B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */,
+				B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */,
+				B3B63AE6279773AF009AE771 /* TelaHistoriaView.swift in Sources */,
 				B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */,
+				B3B63ADC2796FF01009AE771 /* BlocoHistoriasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
