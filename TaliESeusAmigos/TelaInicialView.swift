@@ -75,32 +75,32 @@ struct TelaInicialView: View {
                                 HStack {
                                     
                                     Spacer()
-
-                                    Button{
-                                        mostrarModal = true
-                                    }
-                                label:{
                                     
-                                        Image(systemName: "lightbulb.circle")
-                                            .resizable()
-                                            .frame(width: 60, height: 60)
- 
-                                    }
-                                    .padding(.top, 20)
-                                    .foregroundColor(Color("Roxo"))
-                                    .sheet(isPresented: $mostrarModal, onDismiss: {self.mostrarModal = false}) {
-                                        TelaOrientacaoView()
-                                    }
+                                    //                                    Button{
+                                    //                                        mostrarModal = true
+                                    //                                    }
+                                    //                                label:{
+                                    //
+                                    //                                        Image(systemName: "lightbulb.circle")
+                                    //                                            .resizable()
+                                    //                                            .frame(width: 60, height: 60)
+                                    //
+                                    //                                    }
+                                    //                                    .padding(.top, 20)
+                                    //                                    .foregroundColor(Color("Roxo"))
+                                    //                                    .sheet(isPresented: $mostrarModal, onDismiss: {self.mostrarModal = false}) {
+                                    //                                        TelaOrientacaoView()
+                                    //                                    }
                                     
-
+                                    
                                 }
                                 
                                 Spacer()
-
+                                
                                 
                             }
                             .padding(.top)
-                        .padding(.trailing)
+                            .padding(.trailing)
                         }
                         
                     }
@@ -113,14 +113,9 @@ struct TelaInicialView: View {
                     HStack(){
                         Text("Histórias 📖")
                             .font(.system(size: 27, weight: .bold, design: .default))
-                            .padding(.leading,
-                                     20)
-                        Spacer()
-                        
-                        
-                            .padding(.trailing, 10)
-                        
-                        
+                            .padding(.top, 20)
+                            .padding(.leading, 20)
+
                         
                     }.padding(.trailing, 20)
                     
@@ -189,6 +184,29 @@ struct TelaInicialView: View {
                 
             })
                 .edgesIgnoringSafeArea(.all)
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        
+                        Button{
+                            mostrarModal = true
+                        }
+                    label:{
+                        
+                        Image(systemName: "lightbulb.circle")
+                            .resizable()
+                            .frame(width: 35, height: 35)
+                        
+                    }
+                    .padding(.top, 20)
+                    .foregroundColor(Color("Roxo"))
+                    .sheet(isPresented: $mostrarModal, onDismiss: {self.mostrarModal = false}) {
+                        TelaOrientacaoView()
+                    }
+                        
+                    }
+                    
+                }
+            
         }
     }
 }

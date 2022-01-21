@@ -25,6 +25,7 @@
 		B304C9892799DE1E0083A207 /* BlocoHistorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63ADD2797005A009AE771 /* BlocoHistorias.swift */; };
 		B304C98B279A18770083A207 /* BlocoVersiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304C98A279A18770083A207 /* BlocoVersiculos.swift */; };
 		B304C98C279A18770083A207 /* BlocoVersiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304C98A279A18770083A207 /* BlocoVersiculos.swift */; };
+		B33E52E8279B2FA100DA4BD1 /* Date+Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E52E7279B2FA100DA4BD1 /* Date+Day.swift */; };
 		B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */; };
 		B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */; };
 		B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */; };
@@ -72,6 +73,7 @@
 		B304C9752799D1E00083A207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B304C9772799D1E00083A207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B304C98A279A18770083A207 /* BlocoVersiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocoVersiculos.swift; sourceTree = "<group>"; };
+		B33E52E7279B2FA100DA4BD1 /* Date+Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Day.swift"; sourceTree = "<group>"; };
 		B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOrientacaoView.swift; sourceTree = "<group>"; };
 		B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOracaoView.swift; sourceTree = "<group>"; };
 		B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaliESeusAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 			children = (
 				B304C9722799D1DE0083A207 /* TalieseusamigosWidget.swift */,
 				B304C98A279A18770083A207 /* BlocoVersiculos.swift */,
+				B33E52E7279B2FA100DA4BD1 /* Date+Day.swift */,
 				B304C9742799D1DF0083A207 /* TalieseusamigosWidget.intentdefinition */,
 				B304C9752799D1E00083A207 /* Assets.xcassets */,
 				B304C9772799D1E00083A207 /* Info.plist */,
@@ -238,6 +241,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = B3B63A9B278F818D009AE771;
 			productRefGroup = B3B63AA5278F818E009AE771 /* Products */;
@@ -276,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B33E52E8279B2FA100DA4BD1 /* Date+Day.swift in Sources */,
 				B304C9842799DD6A0083A207 /* TelaOrientacaoView.swift in Sources */,
 				B304C9812799DB6D0083A207 /* TelaInicialView.swift in Sources */,
 				B304C9862799DD7B0083A207 /* TelaOracaoView.swift in Sources */,
@@ -516,7 +521,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -546,7 +551,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

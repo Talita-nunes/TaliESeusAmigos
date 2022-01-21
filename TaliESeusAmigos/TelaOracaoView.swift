@@ -17,14 +17,20 @@ struct TelaOracaoView: View {
             //                    Text("Momento de oração 🙏🏼")
             //                        .font(.system(size: 27, weight: .bold, design: .default))
             
-            Image(tituloImagem)
-                .resizable()
+            VStack {
+                Image(tituloImagem)
+                    .resizable()
                 .frame(width: 360, height: 645, alignment: .center)
-            
-            Spacer()
+                .padding(.bottom, 50)
+//                Spacer()
+//                Spacer()
+
+            }
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
             
         }
-//        .navigationTitle(Text("Momento de oração 🙏🏼"))
+        .navigationTitle(Text("Momento de oração 🙏🏼"))
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

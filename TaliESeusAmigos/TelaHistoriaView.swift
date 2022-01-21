@@ -15,40 +15,40 @@ struct TelaHistoriaView: View {
     var body: some View {
         NavigationView {
             
-            
-            ScrollView(.horizontal, showsIndicators: true) {
-                
-                HStack(spacing: 20) {
-                    ForEach((0..<imagens.count), id: \.self) { i in
-                        ZStack {
-                            Image(imagens[i])
-                                .resizable()
-                                .frame(width: 383, height: 687, alignment: .center)
-                                .padding(.bottom)
-                            
-                            VStack {
-                                Text(textosRoteiro[i])
-                                    .frame(width: 310, height: 200, alignment: .center)
-                                .font(.system(size: 16, weight: .light, design: .default))
-                                .multilineTextAlignment(.center)
-                                .padding(.top, 40)
-                                .foregroundColor(Color("Roxo"))
-                                Spacer()
+                ScrollView(.horizontal, showsIndicators: true) {
+                    
+                    HStack(spacing: 20) {
+                        ForEach((0..<imagens.count), id: \.self) { i in
+                            ZStack {
+                                Image(imagens[i])
+                                    .resizable()
+                                    .frame(width: 383, height: 687, alignment: .center)
+                                    .padding(.bottom)
+                                
+                                VStack {
+                                    Text(textosRoteiro[i])
+                                        .frame(width: 310, height: 200, alignment: .center)
+                                    .font(.system(size: 16, weight: .light, design: .default))
+                                    .multilineTextAlignment(.center)
+                                    .padding(.top, 40)
+                                    .foregroundColor(Color("Roxo"))
+                                    Spacer()
 
+                                }
+                                
                             }
-                            
+                            .padding(.horizontal)
                         }
-                        .padding(.horizontal)
                     }
-                }
-                 Spacer()
-                .padding()
+                     Spacer()
+                    .padding()
 
-            }
-            
+                }
+                        
         }
         
     }
+    
 }
 
 struct TelaHistoriaView_Previews: PreviewProvider {
