@@ -50,6 +50,8 @@ struct TelaInicialView: View {
         return 0
     }
     
+
+    
     @State var mostrarModal = false
     
     var body: some View {
