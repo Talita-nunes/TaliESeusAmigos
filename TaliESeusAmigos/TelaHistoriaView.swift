@@ -22,15 +22,19 @@ struct TelaHistoriaView: View {
                             ZStack {
                                 Image(imagens[i])
                                     .resizable()
-                                    .frame(width: 383, height: 687, alignment: .center)
+//                                    .frame(width: 383, height: 687, alignment: .center)
+//
+                                    .frame(width: 360, height: 645, alignment: .center)
                                     .padding(.bottom)
+                                    .padding(.leading)
                                 
                                 VStack {
                                     Text(textosRoteiro[i])
-                                        .frame(width: 310, height: 200, alignment: .center)
-                                    .font(.system(size: 16, weight: .light, design: .default))
+                                        .frame(width: 290, height: 216, alignment: .center)
+                                    .font(.system(size: 15, weight: .light, design: .default))
                                     .multilineTextAlignment(.center)
-                                    .padding(.top, 40)
+                                    .padding(.top, 30)
+                                    .padding(.leading, 6)
                                     .foregroundColor(Color("Roxo"))
                                     Spacer()
 
@@ -46,6 +50,8 @@ struct TelaHistoriaView: View {
                 }
                         
         }
+        .navigationTitle(Text("Histórias 📖"))
+        .navigationBarTitleDisplayMode(.inline)
         
     }
     

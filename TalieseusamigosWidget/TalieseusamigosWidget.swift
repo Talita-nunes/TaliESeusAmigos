@@ -61,16 +61,16 @@ struct TalieseusamigosWidgetEntryView : View {
         
         ZStack {
             
-            Image("fundo")
+            Image("fundoWidget")
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             VStack{
-
-                Image("taliLendo")
-                    .resizable()
-                    .frame(width: 103, height: 139, alignment: .center)
-//                    .padding(.top, 70)
+//
+//                Image("taliLendo")
+//                    .resizable()
+//                    .frame(width: 103, height: 139, alignment: .center)
+////                    .padding(.top, 70)
                 
                 HStack {
                     
@@ -78,7 +78,7 @@ struct TalieseusamigosWidgetEntryView : View {
                     
                     Text(blocoversiculos[getDay()].referencia)
                             .foregroundColor(Color.white)
-                            .font(.system(size: 16, weight: .light, design: .default))
+                            .font(.system(size: 16, weight: .bold, design: .default))
                     
                         
                         
