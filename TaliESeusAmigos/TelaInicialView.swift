@@ -13,7 +13,7 @@ struct TelaInicialView: View {
     
     let nomesOracoes = ["VIDA", "SALVAÇÃO", "PECADOS","OBEDIÊNCIA", "CRIAÇÃO", "CORAÇÃO PURO", "AMAR AO PRÓXIMO", "AMAR A DEUS"]
     
-    let tituloImagemOracoes = ["VIDAcard", "SALVAÇÃOcard", "PECADOScard","OBEDIÊNCIAcard", "CRIAÇÃOcard", "CORAÇÃO PUROcard", "AMAR AO PRÓXIMOcard", "AMAR A DEUScard"]
+    let tituloImagemOracoes = ["VIDAcard", "SALVAÇÃOcard", "PECADOScard","OBEDIÊNCIAcard", "CRIAÇÃOcard", "CORAÇÃOcard", "AMAR AO PRÓXIMOcard", "AMAR A DEUScard"]
     
     
     var blocosHistorias: [BlocoHistorias] = [
@@ -67,41 +67,7 @@ struct TelaInicialView: View {
                             .clipped()
                             .frame(width: reader.size.width, height: self.getHeightForHeaderImage(reader))
                             .offset(x: 0, y: self.getOffsetForHeaderImage(reader))
-                        
-                        
-                        ZStack {
-                            VStack {
-                                
-                                HStack {
-                                    
-                                    Spacer()
-                                    
-                                    //                                    Button{
-                                    //                                        mostrarModal = true
-                                    //                                    }
-                                    //                                label:{
-                                    //
-                                    //                                        Image(systemName: "lightbulb.circle")
-                                    //                                            .resizable()
-                                    //                                            .frame(width: 60, height: 60)
-                                    //
-                                    //                                    }
-                                    //                                    .padding(.top, 20)
-                                    //                                    .foregroundColor(Color("Roxo"))
-                                    //                                    .sheet(isPresented: $mostrarModal, onDismiss: {self.mostrarModal = false}) {
-                                    //                                        TelaOrientacaoView()
-                                    //                                    }
-                                    
-                                    
-                                }
-                                
-                                Spacer()
-                                
-                                
-                            }
-                            .padding(.top)
-                            .padding(.trailing)
-                        }
+                 
                         
                     }
                 }
