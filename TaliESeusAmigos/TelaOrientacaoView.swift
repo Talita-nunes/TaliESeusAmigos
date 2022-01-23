@@ -34,7 +34,7 @@ struct TelaOrientacaoView: View {
             ZStack {
                 VStack{
                     
-                    Text("Recomendamos que após a leitura da história, vocês usaem a bíblia na referência que colocamos, pois mesmo conhecendo a história é de extrema importância que a criança saiba desde cedo que a Bíblia é a Palavra de Deus para nós.  E lá está dispota de forma completa as maravilhas que Deus,  a nossa regra de fé e prática. ")
+                    Text("Recomendamos que após a leitura da história, vocês usarem a bíblia na referência que colocamos, pois mesmo conhecendo a história é de extrema importância que a criança saiba desde cedo que a Bíblia é a Palavra de Deus para nós.  E lá está dispota de forma completa as maravilhas que Deus,  a nossa regra de fé e prática. ")
                         .padding()
                         .font(.system(size: 22, weight: .light, design: .default))
                         .foregroundColor(.white)
