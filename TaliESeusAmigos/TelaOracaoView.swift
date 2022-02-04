@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct TelaOracaoView: View {
+  
     
     var tituloImagem: String
+    
+    
     
     var body: some View {
         NavigationView {

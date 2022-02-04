@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "BECA_FACE 2.sticker"
+    },
+    {
+      "filename" : "PEDRO_FACE 2.sticker"
+    },
+    {
+      "filename" : "Tali-e-Seus-Amigos-Logo-OFICIAL.sticker"
+    },
+    {
+      "filename" : "THIAGO_FACE 2.sticker"
+    },
+    {
+      "filename" : "TURMA_GERAL 2.sticker"
+    },
+    {
+      "filename" : "Tali- Adesivos.sticker"
+    }
+  ]
+}

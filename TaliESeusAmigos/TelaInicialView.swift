@@ -51,12 +51,13 @@ struct TelaInicialView: View {
         
         return 0
     }
-    
 
     
     @State var mostrarModal = false
     
     var body: some View {
+    
+        
         
         NavigationView {
             ScrollView(.vertical, showsIndicators: true, content:{

@@ -11,6 +11,7 @@ struct TelaHistoriaView: View {
     
     var imagens: [String]
     var textosRoteiro: [String]
+ 
     
     var body: some View {
         NavigationView {

@@ -29,6 +29,8 @@
 		B33E52E8279B2FA100DA4BD1 /* Date+Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E52E7279B2FA100DA4BD1 /* Date+Day.swift */; };
 		B37D929227987E1B0092CCE3 /* TelaOrientacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */; };
 		B37D9294279885BD0092CCE3 /* TelaOracaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */; };
+		B3A20B7827ADC4E40057A680 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A20B7727ADC4E40057A680 /* Stickers.xcassets */; };
+		B3A20B7C27ADC4E50057A680 /* Adesivos.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3A20B7527ADC4E30057A680 /* Adesivos.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B3B63AA8278F818E009AE771 /* TaliESeusAmigosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */; };
 		B3B63AAA278F818E009AE771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B63AA9278F818E009AE771 /* ContentView.swift */; };
 		B3B63AAC278F818F009AE771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B63AAB278F818F009AE771 /* Assets.xcassets */; };
@@ -49,6 +51,13 @@
 			remoteGlobalIDString = B304C96A2799D1DE0083A207;
 			remoteInfo = TalieseusamigosWidgetExtension;
 		};
+		B3A20B7A27ADC4E50057A680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B63A9C278F818D009AE771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A20B7427ADC4E30057A680;
+			remoteInfo = Adesivos;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +67,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				B3A20B7C27ADC4E50057A680 /* Adesivos.appex in Embed App Extensions */,
 				B304C97C2799D1E00083A207 /* TalieseusamigosWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -78,6 +88,9 @@
 		B33E52E7279B2FA100DA4BD1 /* Date+Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Day.swift"; sourceTree = "<group>"; };
 		B37D929127987E1B0092CCE3 /* TelaOrientacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOrientacaoView.swift; sourceTree = "<group>"; };
 		B37D9293279885BD0092CCE3 /* TelaOracaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaOracaoView.swift; sourceTree = "<group>"; };
+		B3A20B7527ADC4E30057A680 /* Adesivos.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Adesivos.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A20B7727ADC4E40057A680 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		B3A20B7927ADC4E40057A680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaliESeusAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B63AA7278F818E009AE771 /* TaliESeusAmigosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaliESeusAmigosApp.swift; sourceTree = "<group>"; };
 		B3B63AA9278F818E009AE771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,11 +148,21 @@
 			path = TalieseusamigosWidget;
 			sourceTree = "<group>";
 		};
+		B3A20B7627ADC4E30057A680 /* Adesivos */ = {
+			isa = PBXGroup;
+			children = (
+				B3A20B7727ADC4E40057A680 /* Stickers.xcassets */,
+				B3A20B7927ADC4E40057A680 /* Info.plist */,
+			);
+			path = Adesivos;
+			sourceTree = "<group>";
+		};
 		B3B63A9B278F818D009AE771 = {
 			isa = PBXGroup;
 			children = (
 				B3B63AA6278F818E009AE771 /* TaliESeusAmigos */,
 				B304C9712799D1DE0083A207 /* TalieseusamigosWidget */,
+				B3A20B7627ADC4E30057A680 /* Adesivos */,
 				B304C96C2799D1DE0083A207 /* Frameworks */,
 				B3B63AA5278F818E009AE771 /* Products */,
 			);
@@ -150,6 +173,7 @@
 			children = (
 				B3B63AA4278F818E009AE771 /* TaliESeusAmigos.app */,
 				B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */,
+				B3A20B7527ADC4E30057A680 /* Adesivos.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,6 +225,21 @@
 			productReference = B304C96B2799D1DE0083A207 /* TalieseusamigosWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		B3A20B7427ADC4E30057A680 /* Adesivos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A20B7F27ADC4E50057A680 /* Build configuration list for PBXNativeTarget "Adesivos" */;
+			buildPhases = (
+				B3A20B7327ADC4E30057A680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adesivos;
+			productName = Adesivos;
+			productReference = B3A20B7527ADC4E30057A680 /* Adesivos.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		B3B63AA3278F818E009AE771 /* TaliESeusAmigos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3B63AB2278F818F009AE771 /* Build configuration list for PBXNativeTarget "TaliESeusAmigos" */;
@@ -214,6 +253,7 @@
 			);
 			dependencies = (
 				B304C97B2799D1E00083A207 /* PBXTargetDependency */,
+				B3A20B7B27ADC4E50057A680 /* PBXTargetDependency */,
 			);
 			name = TaliESeusAmigos;
 			productName = TaliESeusAmigos;
@@ -231,6 +271,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					B304C96A2799D1DE0083A207 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B3A20B7427ADC4E30057A680 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					B3B63AA3278F818E009AE771 = {
@@ -254,6 +297,7 @@
 			targets = (
 				B3B63AA3278F818E009AE771 /* TaliESeusAmigos */,
 				B304C96A2799D1DE0083A207 /* TalieseusamigosWidgetExtension */,
+				B3A20B7427ADC4E30057A680 /* Adesivos */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +309,14 @@
 			files = (
 				B304C9822799DB910083A207 /* Assets.xcassets in Resources */,
 				B304C9762799D1E00083A207 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A20B7327ADC4E30057A680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A20B7827ADC4E40057A680 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +378,11 @@
 			target = B304C96A2799D1DE0083A207 /* TalieseusamigosWidgetExtension */;
 			targetProxy = B304C97A2799D1E00083A207 /* PBXContainerItemProxy */;
 		};
+		B3A20B7B27ADC4E50057A680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A20B7427ADC4E30057A680 /* Adesivos */;
+			targetProxy = B3A20B7A27ADC4E50057A680 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -379,6 +436,44 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3A20B7D27ADC4E50057A680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Adesivos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos.Adesivos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A20B7E27ADC4E50057A680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Adesivos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos.Adesivos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -506,7 +601,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"TaliESeusAmigos/Preview Content\"";
 				DEVELOPMENT_TEAM = HFB9678VY3;
 				ENABLE_PREVIEWS = YES;
@@ -521,7 +616,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -537,7 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"TaliESeusAmigos/Preview Content\"";
 				DEVELOPMENT_TEAM = HFB9678VY3;
 				ENABLE_PREVIEWS = YES;
@@ -552,7 +647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.TaliESeusAmigos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -569,6 +664,15 @@
 			buildConfigurations = (
 				B304C97E2799D1E00083A207 /* Debug */,
 				B304C97F2799D1E00083A207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A20B7F27ADC4E50057A680 /* Build configuration list for PBXNativeTarget "Adesivos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A20B7D27ADC4E50057A680 /* Debug */,
+				B3A20B7E27ADC4E50057A680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
